@@ -1,0 +1,151 @@
+/* Google Fonts (add this at top of CSS) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: linear-gradient(to right, #e0f7fa, #f1f8ff);
+    color: #333;
+}
+
+/* ================= HEADER ================= */
+header {
+    background: linear-gradient(90deg, #0077b6, #0096c7);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    font-size: 32px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 18px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+/* ================= HERO SECTION ================= */
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: 
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("https://images.unsplash.com/photo-1586773860418-d37222d8fce3") center/cover no-repeat;
+    color: white;
+}
+
+.hero h2 {
+    font-size: 42px;
+    font-family: 'Playfair Display', serif;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* ================= DOCTOR CARDS ================= */
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 50px;
+}
+
+.card {
+    background: white;
+    padding: 25px;
+    width: 230px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: 0.4s;
+}
+
+.card h3 {
+    color: #0077b6;
+    margin-bottom: 5px;
+}
+
+.card p {
+    color: #555;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 35px rgba(0,0,0,0.15);
+}
+
+/* ================= FORM ================= */
+form {
+    max-width: 420px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.12);
+}
+
+form label {
+    font-weight: 500;
+    margin-top: 15px;
+    display: block;
+}
+
+form input,
+select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+form input:focus,
+select:focus {
+    outline: none;
+    border-color: #0077b6;
+}
+
+/* ================= BUTTON ================= */
+button {
+    margin-top: 20px;
+    background: linear-gradient(90deg, #0077b6, #00b4d8);
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #023e8a, #0077b6);
+    transform: scale(1.05);
+}
+
+/* ================= FOOTER ================= */
+footer {
+    background: #023e8a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}

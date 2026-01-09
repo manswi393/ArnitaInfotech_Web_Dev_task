@@ -1,0 +1,9 @@
+Flask
+Flask-Mail
+Werkzeug
+gunicorn
+Flask
+Flask-Mail
+Werkzeug
+gunicorn
+flask-cors

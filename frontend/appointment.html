@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Book Appointment</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h2>Book Appointment</h2>
+
+<form id="appointmentForm">
+    <label>Name</label>
+    <input type="text" required>
+
+    <label>Email</label>
+    <input type="email" required>
+
+    <label>Select Doctor</label>
+    <select required>
+        <option>Dr. Amit Sharma</option>
+        <option>Dr. Neha Patil</option>
+        <option>Dr. Rahul Verma</option>
+    </select>
+
+    <label>Select Date</label>
+    <input type="date" id="date" required>
+
+    <label>Select Time Slot</label>
+    <select required>
+        <option>10:00 AM - 11:00 AM</option>
+        <option>11:00 AM - 12:00 PM</option>
+        <option>2:00 PM - 3:00 PM</option>
+    </select>
+
+    <button type="submit">Book Appointment</button>
+</form>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

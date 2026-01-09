@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard | Hospital</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <h1>Hospital Administration Panel</h1>
+    <nav>
+        <a href="admin-dashboard.html">Dashboard</a>
+        <a href="#">Doctors</a>
+        <a href="#">Appointments</a>
+        <a href="#">Logout</a>
+    </nav>
+</header>
+
+<!-- DASHBOARD INTRO -->
+<section style="padding:60px; text-align:center;">
+    <h2 style="margin-bottom:10px;">Administrative Overview</h2>
+    <p style="max-width:800px; margin:auto; line-height:1.8; color:#555;">
+        This dashboard provides a centralized view of hospital operations including 
+        appointments, doctors, and patient requests. Use the controls below to 
+        efficiently manage daily activities.
+    </p>
+</section>
+
+<!-- STATISTICS -->
+<section class="dashboard">
+    <div class="dash-card">
+        <h3>Total Doctors</h3>
+        <p style="font-size:28px; font-weight:600;">18</p>
+    </div>
+
+    <div class="dash-card">
+        <h3>Total Appointments</h3>
+        <p style="font-size:28px; font-weight:600;">126</p>
+    </div>
+
+    <div class="dash-card">
+        <h3>Pending Approvals</h3>
+        <p style="font-size:28px; font-weight:600;">9</p>
+    </div>
+</section>
+
+<!-- APPOINTMENT TABLE -->
+<section style="padding:60px;">
+    <h2 style="text-align:center; margin-bottom:30px;">Appointment Requests</h2>
+
+    <table>
+        <tr>
+            <th>Patient Name</th>
+            <th>Doctor</th>
+            <th>Department</th>
+            <th>Date</th>
+            <th>Status</th>
+        </tr>
+
+        <tr>
+            <td>Manswi Ajankar</td>
+            <td>Dr. Amit Sharma</td>
+            <td>Cardiology</td>
+            <td>12 Jan 2026</td>
+            <td>Pending</td>
+        </tr>
+
+        <tr>
+            <td>Rahul Patil</td>
+            <td>Dr. Neha Patil</td>
+            <td>Neurology</td>
+            <td>13 Jan 2026</td>
+            <td>Confirmed</td>
+        </tr>
+    </table>
+</section>
+
+<!-- QUICK ACTIONS -->
+<section style="padding:60px; text-align:center;">
+    <h2 style="margin-bottom:20px;">Quick Actions</h2>
+
+    <a href="#">
+        <button style="margin:10px;">Add Doctor</button>
+    </a>
+
+    <a href="#">
+        <button style="margin:10px;">Manage Slots</button>
+    </a>
+
+    <a href="#">
+        <button style="margin:10px;">View Reports</button>
+    </a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Multi-Speciality Hospital | Admin Panel</p>
+</footer>
+
+</body>
+</html>
